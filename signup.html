@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Login</title>
+<title>Register</title>
 <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -12,20 +12,26 @@
 
 <div class="login-card">
 <div class="log_head">
-<h1>LOGIN</h1>
+<h1>SIGN UP</h1>
 </div>
 
 <div class="log_body">
 <form action="#" method="POST">
  <table width="200" border="0" align="center">
   <tr>
+    <td><input type="text" name="name"  class="log_user"placeholder = "Name"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+   <tr>
     <td><input type="text" name="username" class="log_user" placeholder = "Username"></td>
   </tr>
   <tr>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td><input type="password" name="password" class="log_Pass" placeholder = "Password"></td>
+    <td><input type="password" name="password" class="log_Pass" placeholder = "Password"> </td>
   </tr>
   <tr>
     <td>&nbsp;</td>
@@ -35,13 +41,14 @@
   <td>&nbsp;</td>
   </tr>
   <tr>
-   <td><input type="submit" name="login" class="login-submit" value="SIGN IN"></td>
+   <td><input type="submit" name="login" class="login-submit" value="SIGN UP"></td>
   </tr>
+
   <tr>
     <td>&nbsp;</td>
   </tr>
   <tr>
-   <td>Don't have an account ? <a href="signup.html" rel="signup">Sign Up</a></td>
+   <td>Have an account ? <a href="login.html" rel="login">Log In</a></td>
   </tr>
 </table>
 
